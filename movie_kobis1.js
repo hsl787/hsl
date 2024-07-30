@@ -16,7 +16,7 @@ class KobisOpenAPIRestService {
         this.PEOPLE_LIST_URI = "/kobisopenapi/webservice/rest/people/searchPeopleList";
         this.PEOPLE_INFO_URI = "/kobisopenapi/webservice/rest/people/searchPeopleInfo";
     }
-
+//---lkdfjwekjfn
     // KOBIS API에 GET 요청을 보내는 함수 정의
     async requestGet(serviceURI, paramMap) {
         const urlStr = this.host + serviceURI + '.json';  // 요청할 URL 생성
