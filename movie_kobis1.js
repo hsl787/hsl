@@ -29,7 +29,7 @@ class KobisOpenAPIRestService {
             throw new Error(error.response.data);  // 오류 발생 시 에러 처리
         }
     }
-
+==sdlfkjwoe;fkj
     // 일일 박스오피스 데이터 조회
     async getDailyBoxOffice(paramMap) {
         return await this.requestGet(this.DAILY_BOXOFFICE_URI, paramMap);
