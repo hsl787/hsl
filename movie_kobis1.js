@@ -16,7 +16,7 @@ class KobisOpenAPIRestService {
         this.PEOPLE_LIST_URI = "/kobisopenapi/webservice/rest/people/searchPeopleList";
         this.PEOPLE_INFO_URI = "/kobisopenapi/webservice/rest/people/searchPeopleInfo";
     }
-
+//---lkdfjwekjfn
     // KOBIS API에 GET 요청을 보내는 함수 정의
     async requestGet(serviceURI, paramMap) {
         const urlStr = this.host + serviceURI + '.json';  // 요청할 URL 생성
@@ -29,7 +29,7 @@ class KobisOpenAPIRestService {
             throw new Error(error.response.data);  // 오류 발생 시 에러 처리
         }
     }
-
+==sdlfkjwoe;fkj
     // 일일 박스오피스 데이터 조회
     async getDailyBoxOffice(paramMap) {
         return await this.requestGet(this.DAILY_BOXOFFICE_URI, paramMap);

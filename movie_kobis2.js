@@ -37,7 +37,7 @@ class KobisOpenAPIRestService {
         return await this.requestGet(this.DAILY_BOXOFFICE_URI, paramMap);
     }
 }
-///sdf;okwjepfioj;dlfkjldskjf
+
 // KOBIS Open API 서비스 객체 생성
 const apiKey = "69897250c60e02be49d7b7dc362dc152";
 const apiHost = "http://www.kobis.or.kr";
